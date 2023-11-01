@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAE6E6"
+    tools:context=".GameActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/roundsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Runden"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pointsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:text="Punkte"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/spielbereich"
+        android:layout_width="match_parent"
+        android:layout_height="467dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/timeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="10dp"
+                android:text="TextView" />
+
+            <FrameLayout
+                android:id="@+id/bar_time"
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_gravity="center_vertical"
+                android:background="#E0F7FA"
+                android:paddingLeft="10dp">
+
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/hitsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="10dp"
+                android:text="TextView" />
+
+            <FrameLayout
+                android:id="@+id/bar_hits"
+                android:layout_width="50dp"
+                android:layout_height="5dp"
+                android:layout_gravity="center_vertical"
+                android:background="#E0F7FA"
+                android:paddingLeft="10dp">
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mueckenfang</string>
+    <string name="welcome">Willkommen zum Mückenfang!</string>
+    <string name="start">START</string>
+    <string name="textview">Game Over</string>
+    <string name="highscore">Highscore</string>
+    <string name="neuer_highscore_gib_deinen_namen_ein">Neuer Highscore! Gib Deinen Namen ein!</string>
+    <string name="speichern">Speichern</string>
+    <string name="highscores">Highscores</string>
+</resources>
